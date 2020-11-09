@@ -1,0 +1,69 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Arial, Helvetica, sans-serif;
+}
+/*area - MENU*/
+.bar-top {
+	background-color: #333;
+	width: 100%;
+	height: 30px;
+}
+
+/* area - NAV À ESQUERDA*/
+.bar{
+	max-width: 1040px;
+	height: 30px;
+	margin: auto;
+	display: flex;
+	
+}
+.bar-nav{
+	display: flex;
+	flex: 1;
+}
+.bar-nav ul,li {
+	list-style: none;
+}
+.bar-nav ul{
+	display: flex;
+	align-items: center;
+}
+.bar-nav li a{
+	color: #FFF;
+	font-weight: bold;
+	text-transform: capitalize;
+	text-decoration: none;
+	margin: 0px 8px 0px 8px;
+	font-size: 12px;
+}
+.bar-nav a:hover{
+	color: rgb(33, 104, 211);
+}
+
+/*area - PESQUISA À DIREITA*/
+.bar-search {
+	display: flex;
+	flex: 1;
+	justify-content: flex-end;
+}
+.bar-search ul {
+	display: flex;
+	align-items: center;
+}
+.bar-search li {
+	margin: 0px 3px;
+}
+.bar-search li img{ 
+	width: 25px;
+	height: 25px;
+	margin-top: 3px;
+}
+.bar-search .lupa img {
+	width: 19px;
+	height: 19px;
+}
+.bar-search li input {
+	border: none;
+}
