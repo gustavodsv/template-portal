@@ -96,3 +96,30 @@
 	width: 650px;
 	height: 80px;
 }
+
+/*menu-principal*/
+nav {
+	width: 100%;
+	background-color: #ff0000;
+}
+.area-menu {
+	width: 1040px;
+	height: 40px;
+	margin: auto;
+	display: flex;
+}
+.area-menu ul {
+	display: flex;
+	align-items: center;
+}
+.area-menu ul li a {
+	color: #FFF;
+	margin: 0px 8px;
+	text-transform: capitalize;
+	text-decoration: none;
+	align-items: center;
+	font-weight: 500;
+}
+.area-menu ul li a:hover {
+	text-decoration: underline;
+}
