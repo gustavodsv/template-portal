@@ -13,6 +13,7 @@
 
 /* area - NAV À ESQUERDA*/
 .bar{
+	width: 100%;
 	max-width: 1040px;
 	height: 30px;
 	margin: auto;
@@ -75,7 +76,8 @@
 	height: 95px;
 }
 .header-logo-anuncio {
-	width: 1040px;
+	width: 100%;
+	max-width: 1040px;
 	height: 95px;
 	margin: auto;
 	display: flex;
@@ -103,7 +105,8 @@ nav {
 	background-color: #ff0000;
 }
 .area-menu {
-	width: 1040px;
+	width: 100%;
+	max-width: 1040px;
 	height: 40px;
 	margin: auto;
 	display: flex;
@@ -114,12 +117,34 @@ nav {
 }
 .area-menu ul li a {
 	color: #FFF;
-	margin: 0px 8px;
+	padding: 0px 8px;
 	text-transform: capitalize;
 	text-decoration: none;
 	align-items: center;
 	font-weight: 500;
 }
-.area-menu ul li a:hover {
+.area-menu li a:hover {
 	text-decoration: underline;
+}
+.area-menu li img {
+	width: 10px;
+	height: 10px;
+	border: 0;
+}
+
+.submenu {
+	width: 12-px;
+	background-color: #F00;
+	position: absolute;
+	display: none;
+}
+.area-menu li:hover .submenu {
+	display: block;
+}
+
+.submenuitem {
+	width: 140px;
+	height: 100%;
+	line-height: 10px;
+	padding-left: 10px;
 }
