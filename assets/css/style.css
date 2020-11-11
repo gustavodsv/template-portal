@@ -187,3 +187,57 @@ nav {
 	text-decoration: none;
 	color: #000;
 }
+
+
+/*LADO DIREITO*/
+.container-int{
+	width: 100%;
+	max-width: 1040px;
+	margin: auto;
+}
+.left-side {
+	width: 753px;
+	float: left;
+
+}
+.right-side {
+	width: 275px;
+	float: right;
+	margin-left: 12px;
+
+}
+.widget {
+	background-color: #FFF;
+	border: 1px solid #CCC;
+	margin-bottom: 10px;
+}
+.widget-title {
+	height: 30px;
+	font-size: 15px;
+	line-height: 30px;
+	padding-left: 5px;
+	border-bottom: 1px solid #CCC;
+	background-color: #DDD;
+}
+.widget-content {
+	text-align: center;
+	padding: 5px 0px;
+}
+.widget-content.social img {
+	width: 30px;
+	height: 30px;
+}
+.item-notice {
+	margin: 0px 10px;
+	padding: 10px 0px;
+	text-align: left;
+	border-bottom: 1px solid #CCC;
+}
+.item-notice a {
+	text-decoration: none;
+	color: #000;
+}
+.item-notice:last-child {
+	border: none;
+}
+
