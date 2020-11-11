@@ -148,3 +148,42 @@ nav {
 	line-height: 10px;
 	padding-left: 10px;
 }
+
+
+/*ULTIMAS NOTICIAS - AREA*/
+.area-last-news {
+	width: 100%;
+	max-width: 1040px;
+	height: 30px;
+	margin: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	display: flex;
+}
+.left-news, .right-news {
+	display: flex;
+	align-items: center;
+	border: 1px solid #DDD;
+}
+.left-news {
+	width: 171px;
+	background-color: #ff0000;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 0px 10px;
+}
+.right-news {
+	width: 100%;
+	max-width: 869px;
+	overflow: hidden;
+	border-left: none;
+	padding-left: 5px;
+}
+.left-news a {
+	text-decoration: none; 
+	color: #FFF;
+}
+.right-news a{
+	text-decoration: none;
+	color: #000;
+}
