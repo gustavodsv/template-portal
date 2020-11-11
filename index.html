@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portal</title>
     <link rel="stylesheet" href="assets/css/style.css">
+    <script type="text/javascript" src="assets/js/script.js"></script>
 </head>
 <body>
     <header>
@@ -81,7 +82,7 @@
     </section>
 
     <section class="area-last-news">
-        <div class="left-news"> <a href=""> últimas notícias</a></div>
+        <div class="left-news"> <a href="">últimas notícias</a></div>
         <div class="right-news"> <a href=""> <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p></a></div>
     </section>
 
@@ -89,7 +90,41 @@
         <div class="container">
             <div class="container-int">
                 <div class="left-side">
-                    ...
+                    <div class="slide-show" id="slide-show">
+                        <div class="slidebolinhas">
+                            <div class="bolinha" onclick="mudarSlide(0)"></div>
+                            <div class="bolinha" onclick="mudarSlide(1)"></div>
+                            <div class="bolinha" onclick="mudarSlide(2)"></div>
+                            <div class="bolinha" onclick="mudarSlide(3)"></div>
+                        </div>
+                        <div class="slide-show-area">
+                            <div class="slide">
+                                <a href=""><div class="slide-info">
+                                    <div class="slide-info-title">Título da matéria 1</div>
+                                    <div class="slide-info-subtitle">Subtitulo para a matéria Subtitulo para a matéria</div>
+                                </div></a>
+                            </div>
+                            <div class="slide">
+                                <a href=""><div class="slide-info">
+                                    <div class="slide-info-title">Título da matéria 2</div>
+                                    <div class="slide-info-subtitle">Subtitulo para a matéria Subtitulo para a matéria</div>
+                                </div></a>
+                            </div>
+                            <div class="slide">
+                                <a href=""><div class="slide-info">
+                                    <div class="slide-info-title">Título da matéria 3</div>
+                                    <div class="slide-info-subtitle">Subtitulo para a matéria Subtitulo para a matéria</div>
+                                </div></a>
+                            </div>
+                            <div class="slide">
+                                <div class="slide-info">
+                                    <div class="slide-info-title">Título da matéria 4</div>
+                                    <div class="slide-info-subtitle">Subtitulo para a matéria Subtitulo para a matéria</div>
+                                </div></a>
+                            </div>
+                            
+                        </div>
+                    </div>
                 </div>
                 <div class="right-side">
                     <div class="widget">
@@ -106,6 +141,12 @@
                     <div class="widget">
                         <div class="widget-title">ÚLTIMAS NOTÍCIAS</div>
                         <div class="widget-content">
+                            <div class="item-notice">
+                                <a href="">Lorem ipsum dolor sit amet consec adipisicing elit. Fugit ad illum possi</a>
+                            </div>
+                            <div class="item-notice">
+                                <a href="">Lorem ipsum dolor sit amet consec adipisicing elit. Fugit ad illum possi</a>
+                            </div>
                             <div class="item-notice">
                                 <a href="">Lorem ipsum dolor sit amet consec adipisicing elit. Fugit ad illum possi</a>
                             </div>
