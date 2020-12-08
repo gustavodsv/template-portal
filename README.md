@@ -1,10 +1,5 @@
-# News Portal - Template
-
-A fim de adquirir conhecimento. 
-
-Recomendado pelo professor Bonieky - b7Web
+## Projeto - Template NEWS
 
 ---
 
-Sempre a procura de novos desafios
-
+Projeto sem conflito de interesse.
